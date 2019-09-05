@@ -62,47 +62,47 @@ export const constantRoutes = [
         path: 'HouseEdit.vue',
         name: 'HouseEdit',
         component: () => import('@/views/house/index'),
-        meta: { title: '楼盘管理', icon: 'form' }
+        meta: { title: '大数据楼盘管理', icon: 'form' }
       }
     ]
   },
-
-  {
-    path: '/company',
-    component: Layout,
-    children: [
-      {
-        path: 'HouseEdit.vue',
-        name: 'Company',
-        component: () => import('@/views/company/index'),
-        meta: { title: '公司管理', icon: 'form' }
-      }
-    ]
-  },
-  {
-    path: '/basedata',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        name: 'basedata',
-        component: () => import('@/views/basedata/index'),
-        meta: { title: '楼盘基础数据', icon: 'form' }
-      }
-    ]
-  },
-  {
-    path: '/house/operationRecord',
-    component: Layout,
-    children: [
-      {
-        path: 'operationRecord.vue',
-        name: 'OperationRecord',
-        component: () => import('@/views/house/operationRecord'),
-        meta: { title: '楼盘操作记录', icon: 'form' }
-      }
-    ]
-  },
+  /*
+    {
+      path: '/company',
+      component: Layout,
+      children: [
+        {
+          path: 'HouseEdit.vue',
+          name: 'Company',
+          component: () => import('@/views/company/index'),
+          meta: { title: '公司管理', icon: 'form' }
+        }
+      ]
+    },
+    {
+      path: '/basedata',
+      component: Layout,
+      children: [
+        {
+          path: 'index',
+          name: 'basedata',
+          component: () => import('@/views/basedata/index'),
+          meta: { title: '楼盘基础数据', icon: 'form' }
+        }
+      ]
+    },
+    {
+      path: '/house/operationRecord',
+      component: Layout,
+      children: [
+        {
+          path: 'operationRecord.vue',
+          name: 'OperationRecord',
+          component: () => import('@/views/house/operationRecord'),
+          meta: { title: '楼盘操作记录', icon: 'form' }
+        }
+      ]
+    },*/
   //
   // {
   //   path: '/test',
